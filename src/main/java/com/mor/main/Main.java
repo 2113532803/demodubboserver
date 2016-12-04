@@ -25,6 +25,7 @@ public class Main {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "applicationProvider.xml" });
 		context.start();
 		System.out.println("在master分支下做操作");
+		System.out.println("lingy分支下添加的内容");
 		System.out.println("按任意键退出");
 		System.in.read();
 	}
